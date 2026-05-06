@@ -1,0 +1,43 @@
+Protein,Motif name,Description,PROSITE accession,PROSITE pattern,Python regex,Start,End,Matched sequence
+NP_000475.1,ASN_GLYCOSYLATION,N-glycosylation site,PS00001,N-{P}-[ST]-{P},N[^P][ST][^P],542,545,NQSL
+NP_000475.1,ASN_GLYCOSYLATION,N-glycosylation site,PS00001,N-{P}-[ST]-{P},N[^P][ST][^P],571,574,NYSD
+NP_000475.1,CK2_PHOSPHO_SITE,Casein kinase II phosphorylation site,PS00006,[ST]-x(2)-[DE],[ST].{2}[DE],61,64,TCID
+NP_000475.1,CK2_PHOSPHO_SITE,Casein kinase II phosphorylation site,PS00006,[ST]-x(2)-[DE],[ST].{2}[DE],157,160,TCSE
+NP_000475.1,CK2_PHOSPHO_SITE,Casein kinase II phosphorylation site,PS00006,[ST]-x(2)-[DE],[ST].{2}[DE],278,281,TTTE
+NP_000475.1,CK2_PHOSPHO_SITE,Casein kinase II phosphorylation site,PS00006,[ST]-x(2)-[DE],[ST].{2}[DE],282,285,SVEE
+NP_000475.1,CK2_PHOSPHO_SITE,Casein kinase II phosphorylation site,PS00006,[ST]-x(2)-[DE],[ST].{2}[DE],352,355,TTQE
+NP_000475.1,CK2_PHOSPHO_SITE,Casein kinase II phosphorylation site,PS00006,[ST]-x(2)-[DE],[ST].{2}[DE],370,373,STPD
+NP_000475.1,CK2_PHOSPHO_SITE,Casein kinase II phosphorylation site,PS00006,[ST]-x(2)-[DE],[ST].{2}[DE],381,384,TPGD
+NP_000475.1,CK2_PHOSPHO_SITE,Casein kinase II phosphorylation site,PS00006,[ST]-x(2)-[DE],[ST].{2}[DE],596,599,SLTE
+NP_000475.1,CK2_PHOSPHO_SITE,Casein kinase II phosphorylation site,PS00006,[ST]-x(2)-[DE],[ST].{2}[DE],602,605,TTVE
+NP_000475.1,CK2_PHOSPHO_SITE,Casein kinase II phosphorylation site,PS00006,[ST]-x(2)-[DE],[ST].{2}[DE],614,617,SLDD
+NP_000475.1,CK2_PHOSPHO_SITE,Casein kinase II phosphorylation site,PS00006,[ST]-x(2)-[DE],[ST].{2}[DE],633,636,TENE
+NP_000475.1,CK2_PHOSPHO_SITE,Casein kinase II phosphorylation site,PS00006,[ST]-x(2)-[DE],[ST].{2}[DE],679,682,SGYE
+NP_000475.1,CK2_PHOSPHO_SITE,Casein kinase II phosphorylation site,PS00006,[ST]-x(2)-[DE],[ST].{2}[DE],743,746,TPEE
+NP_000475.1,PKC_PHOSPHO_SITE,Protein kinase C phosphorylation site,PS00005,[ST]-x-[RK],[ST].[RK],14,16,TAR
+NP_000475.1,PKC_PHOSPHO_SITE,Protein kinase C phosphorylation site,PS00005,[ST]-x-[RK],[ST].[RK],159,161,SEK
+NP_000475.1,PKC_PHOSPHO_SITE,Protein kinase C phosphorylation site,PS00005,[ST]-x-[RK],[ST].[RK],266,268,TER
+NP_000475.1,PKC_PHOSPHO_SITE,Protein kinase C phosphorylation site,PS00005,[ST]-x-[RK],[ST].[RK],508,510,TLK
+NP_000475.1,PKC_PHOSPHO_SITE,Protein kinase C phosphorylation site,PS00005,[ST]-x-[RK],[ST].[RK],651,653,TTR
+NP_000475.1,PKC_PHOSPHO_SITE,Protein kinase C phosphorylation site,PS00005,[ST]-x-[RK],[ST].[RK],697,699,SNK
+NP_000475.1,PKC_PHOSPHO_SITE,Protein kinase C phosphorylation site,PS00005,[ST]-x-[RK],[ST].[RK],761,763,TYK
+NP_001129488.1,ASN_GLYCOSYLATION,N-glycosylation site,PS00001,N-{P}-[ST]-{P},N[^P][ST][^P],518,521,NQSL
+NP_001129488.1,ASN_GLYCOSYLATION,N-glycosylation site,PS00001,N-{P}-[ST]-{P},N[^P][ST][^P],547,550,NYSD
+NP_001129488.1,CK2_PHOSPHO_SITE,Casein kinase II phosphorylation site,PS00006,[ST]-x(2)-[DE],[ST].{2}[DE],56,59,TCID
+NP_001129488.1,CK2_PHOSPHO_SITE,Casein kinase II phosphorylation site,PS00006,[ST]-x(2)-[DE],[ST].{2}[DE],152,155,TCSE
+NP_001129488.1,CK2_PHOSPHO_SITE,Casein kinase II phosphorylation site,PS00006,[ST]-x(2)-[DE],[ST].{2}[DE],273,276,TTTE
+NP_001129488.1,CK2_PHOSPHO_SITE,Casein kinase II phosphorylation site,PS00006,[ST]-x(2)-[DE],[ST].{2}[DE],277,280,SVEE
+NP_001129488.1,CK2_PHOSPHO_SITE,Casein kinase II phosphorylation site,PS00006,[ST]-x(2)-[DE],[ST].{2}[DE],346,349,STPD
+NP_001129488.1,CK2_PHOSPHO_SITE,Casein kinase II phosphorylation site,PS00006,[ST]-x(2)-[DE],[ST].{2}[DE],357,360,TPGD
+NP_001129488.1,CK2_PHOSPHO_SITE,Casein kinase II phosphorylation site,PS00006,[ST]-x(2)-[DE],[ST].{2}[DE],572,575,SLTE
+NP_001129488.1,CK2_PHOSPHO_SITE,Casein kinase II phosphorylation site,PS00006,[ST]-x(2)-[DE],[ST].{2}[DE],578,581,TTVE
+NP_001129488.1,CK2_PHOSPHO_SITE,Casein kinase II phosphorylation site,PS00006,[ST]-x(2)-[DE],[ST].{2}[DE],590,593,SLDD
+NP_001129488.1,CK2_PHOSPHO_SITE,Casein kinase II phosphorylation site,PS00006,[ST]-x(2)-[DE],[ST].{2}[DE],609,612,TENE
+NP_001129488.1,CK2_PHOSPHO_SITE,Casein kinase II phosphorylation site,PS00006,[ST]-x(2)-[DE],[ST].{2}[DE],655,658,SGYE
+NP_001129488.1,CK2_PHOSPHO_SITE,Casein kinase II phosphorylation site,PS00006,[ST]-x(2)-[DE],[ST].{2}[DE],719,722,TPEE
+NP_001129488.1,PKC_PHOSPHO_SITE,Protein kinase C phosphorylation site,PS00005,[ST]-x-[RK],[ST].[RK],154,156,SEK
+NP_001129488.1,PKC_PHOSPHO_SITE,Protein kinase C phosphorylation site,PS00005,[ST]-x-[RK],[ST].[RK],261,263,TER
+NP_001129488.1,PKC_PHOSPHO_SITE,Protein kinase C phosphorylation site,PS00005,[ST]-x-[RK],[ST].[RK],484,486,TLK
+NP_001129488.1,PKC_PHOSPHO_SITE,Protein kinase C phosphorylation site,PS00005,[ST]-x-[RK],[ST].[RK],627,629,TTR
+NP_001129488.1,PKC_PHOSPHO_SITE,Protein kinase C phosphorylation site,PS00005,[ST]-x-[RK],[ST].[RK],673,675,SNK
+NP_001129488.1,PKC_PHOSPHO_SITE,Protein kinase C phosphorylation site,PS00005,[ST]-x-[RK],[ST].[RK],737,739,TYK

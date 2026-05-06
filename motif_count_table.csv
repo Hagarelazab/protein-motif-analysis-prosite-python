@@ -1,0 +1,7 @@
+Protein,Motif name,Description,PROSITE accession,Count
+NP_000475.1,ASN_GLYCOSYLATION,N-glycosylation site,PS00001,2
+NP_000475.1,CK2_PHOSPHO_SITE,Casein kinase II phosphorylation site,PS00006,13
+NP_000475.1,PKC_PHOSPHO_SITE,Protein kinase C phosphorylation site,PS00005,7
+NP_001129488.1,ASN_GLYCOSYLATION,N-glycosylation site,PS00001,2
+NP_001129488.1,CK2_PHOSPHO_SITE,Casein kinase II phosphorylation site,PS00006,12
+NP_001129488.1,PKC_PHOSPHO_SITE,Protein kinase C phosphorylation site,PS00005,6
