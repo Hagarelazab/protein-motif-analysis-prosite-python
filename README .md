@@ -1,4 +1,4 @@
-# 🧬 Comparative Protein Motif Analysis
+#  Comparative Protein Motif Analysis
 ### Using Python and ExPASy ScanProsite
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat-square&logo=python&logoColor=white)
@@ -8,18 +8,18 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project identifies **protein sequence motifs** in two selected protein sequences using two complementary approaches:
 
-- 🐍 **Python** — regex-based motif scanning for exhaustive hit detection
-- 🌐 **ExPASy ScanProsite** — web-based, biologically filtered motif scanning
+-  **Python** — regex-based motif scanning for exhaustive hit detection
+-  **ExPASy ScanProsite** — web-based, biologically filtered motif scanning
 
 The goal is to compare both methods, understand their differences, and evaluate their use cases in protein functional annotation.
 
 ---
 
-## 🔬 Selected Protein Sequences
+## Selected Protein Sequences
 
 Two representative sequences were selected from an original FASTA file containing **11 protein sequences**.
 
@@ -30,7 +30,7 @@ Two representative sequences were selected from an original FASTA file containin
 
 ---
 
-## 🎯 Selected PROSITE Motifs
+##  Selected PROSITE Motifs
 
 Three PROSITE motifs were chosen for analysis:
 
@@ -42,7 +42,7 @@ Three PROSITE motifs were chosen for analysis:
 
 ---
 
-## 🐍 Python Motif Detection Results
+##  Python Motif Detection Results
 
 Python scanned both sequences using regular expressions, reporting **every exact pattern match**.
 
@@ -52,16 +52,16 @@ Python scanned both sequences using regular expressions, reporting **every exact
 | `NP_001129488.1` | 2 | 12 | 6 | **20** |
 | **Total** | **4** | **25** | **13** | **42** |
 
-> ✅ **Total Python-detected motif hits: 42**
+> **Total Python-detected motif hits: 42**
 
 ---
 
-## 🌐 ScanProsite Results
+## ScanProsite Results
 
 The same two sequences were submitted to [ExPASy ScanProsite](https://prosite.expasy.org/scanprosite/).
 
 **Summary:**
-- 📊 12 hits across 2 sequences
+-  12 hits across 2 sequences
 - 6 hits by **profiles**
 - 6 hits by **patterns**
 
@@ -78,12 +78,12 @@ The same two sequences were submitted to [ExPASy ScanProsite](https://prosite.ex
 
 ---
 
-## ⚖️ Method Comparison
+## Method Comparison
 
 | Method | Search Type | Total Hits |
 |---|---|:---:|
-| 🐍 Python Regex Scan | Raw motif counting (all matches) | **42** |
-| 🌐 ScanProsite Default Scan | Filtered PROSITE scan | **12** |
+|  Python Regex Scan | Raw motif counting (all matches) | **42** |
+|  ScanProsite Default Scan | Filtered PROSITE scan | **12** |
 
 ### Why the difference?
 
@@ -99,18 +99,18 @@ This flag causes ScanProsite to **suppress or hide** these motifs by default to 
 
 ---
 
-## 📝 Conclusion
+## Conclusion
 
 | Tool | Best For |
 |---|---|
-| 🐍 **Python regex scanning** | Raw motif counting, exhaustive detection, custom pipelines |
-| 🌐 **ScanProsite** | Biologically selective hits, functional annotation, reduced false positives |
+| **Python regex scanning** | Raw motif counting, exhaustive detection, custom pipelines |
+|  **ScanProsite** | Biologically selective hits, functional annotation, reduced false positives |
 
 > Both methods are valid and complementary. Python is ideal for **exploring all possible matches**, while ScanProsite is better suited for **biologically meaningful annotation**. The right tool depends on the research goal.
 
 ---
 
-## 🛠️ Tools & Resources
+##  Tools & Resources
 
 - [ExPASy ScanProsite](https://prosite.expasy.org/scanprosite/) — Web-based motif scanning
 - [PROSITE Database](https://prosite.expasy.org/) — Protein domains and functional sites
